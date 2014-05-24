@@ -5,7 +5,7 @@ cacheSolve <- function(x, ...) {
         i <- x$getinverse()
 
 ##Checks if the inverse has already been computed. If yes, it prints the cached
-##inverse instead with a message
+##inverse with a message
         if(!is.null(i)) {
                 message("getting cached data")
                 return(i)
